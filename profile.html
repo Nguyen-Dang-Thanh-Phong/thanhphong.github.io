@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Giới Thiệu Bản Thân</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#about">Thông tin cá nhân </a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#projects">Dịch vụ</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <div class="profile-container">
+            <img src="1.jpg" alt="Ảnh đại diện" class="avatar">
+            <div class="intro-text">
+                <h1>Chào mọi người lại là mình Phong đây</h1>
+                <p>Hãy làm những điều mình thích </p>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>Giới thiệu</h2>
+        <p>Tôi là Nguyễn Đặng Thanh Phong sinh viên năm 2 chuyên ngành Kỹ sư Phần mềm tại Đại học Nguyễn Tất Thành, nơi niềm đam mê với Công nghệ Thông tin của tôi không ngừng được nuôi dưỡng và phát triển. Đối với tôi, việc học không chỉ dừng lại ở lý thuyết mà còn đòi hỏi sự trải nghiệm thực tế và những bài tập sẽ giúp tôi có thêm các cách sử lý tốt cho dự án đó. Với ước mơ trở thành một người thiết kế web đầy kinh nghiệm , tôi luôn nỗ lực không ngừng để trau dồi kỹ năng lập trình và hoàn thiện bản thân, chuẩn bị hành trang vững chắc cho con đường sự nghiệp phía trước.</p>
+    </section>
+
+    <section id="about">
+        <h2>Thông tin cá nhân </h2>
+        <p><strong>Địa chi:</strong> 4/5B Nguyễn Văn Qùy ,Quận 7, Tp. HCM</p>
+        <p><strong>SDT:</strong> 0398854493</p>
+        <p><strong>Ngày Tháng Năm Sinh: </strong> 19/11/2003</p>
+        <p><strong>Email:</strong><a href =" phong.anton1911@gmai.com "> phong.anton1911@gmai.com </a></p>
+    </section>
+
+    <section id="projects">
+        <h2>Dự án</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Dự án 1</h3>
+                <p>Ứng dụng quản lý cửa hàng xe máy</p>
+            </div>
+            <div class="project-card">
+                <h3>Dự án 2</h3>
+                <p>Trang web cá nhân</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Dịch vụ</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Phát triển Web</h3>
+                <p>Thiết kế và phát triển các trang web chất lượng cao, tương thích trên mọi thiết bị và trình duyệt</p>
+            </div>
+            <div class="project-card">
+                <h3>Phát Triển Nội Dung</h3>
+                <p>Tạo và quản lý nội dung cho trang web, bao gồm văn bản, hình ảnh và video.</p>
+            </div>
+            <div class="project-card">
+                <h3>Bảo mật trang web</h3>
+                <p>Đảm bảo trang web an toàn trước các mối đe dọa từ hacker, bao gồm cài đặt SSL, bảo mật máy chủ, và quản lý quyền truy cập.</p>
+            </div>
+            <div class="project-card">
+                <h3>Bảo trì và hỗ trợ kỹ thuật</h3>
+                <p>Cung cấp dịch vụ bảo trì, cập nhật và sửa lỗi trang web sau khi đã đi vào hoạt động, đảm bảo trang web hoạt động ổn định và an toàn..</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Liên hệ</h2>
+        <form action="#" method="post">
+            <div>
+                <label for="fullname">Họ tên đầy đủ:</label><br>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div>
+                <label for="phone">Số điện thoại:</label><br>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div>
+                <label for="message">Tin nhắn:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Gửi</button>
+            </div>
+        </form>
+    </section>
+
+   
+
+    <script src="scripts.js"></script>
+</body>
+</html>
